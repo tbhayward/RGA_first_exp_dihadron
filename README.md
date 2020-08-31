@@ -12,8 +12,7 @@ This is the extension to the CLAS12 eventbuilder that I use to identify electron
 This is the class I use to identify and return all relevant kinematic variables for the dihadron analysis. It includes the boolean "channel_test" that I use to determined whether an event passes all of our channel selection cuts described in the analysis note. 
 
    RGA_dihadrons_cross_check.groovy
-Example groovy script used to create the cross check text file here. Shows how to access the relevant kinematic variables using the kinematic fitter and dihadron analysis code. I placed the skim4 run_005481 in "/work/clas12/thayward/temp/005418/" (although I do not intend to maintain this for long). You can run this script by
- > GROOVY SIDIS/groovy_scripts/RGA_dihadrons_cross_check.groovy /work/clas12/thayward/temp/005418/
+Example groovy script used to create the cross check text file here. Shows how to access the relevant kinematic variables using the kinematic fitter and dihadron analysis code. I placed the skim4 run_005481 in "/work/clas12/thayward/temp/005418/" (although I do not intend to maintain this for long). You can run this script by indicating a directory with hipo files inside of it as the argument.
 
    run_005481_kinematic_comparisons.txt
 Text file containing the output of the variables listed below for the skim4 run_005481. At the time of writing this was located in "/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1/v0/dst/train/skim4/skim4_005418.hipo". 
