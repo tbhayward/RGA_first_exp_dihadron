@@ -22,5 +22,5 @@ Example groovy script used to create the cross check text file here. Shows how t
    
 Text file containing the output of the variables listed below for the skim4 run_005481. At the time of writing this was located in "/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1/v0/dst/train/skim4/skim4_005418.hipo". Some event numbers may repeat but this is when there are 3 or more pions (and thus multiple pairs) in the event.
 
-      Event#, Q2, W, MX, xF1, xF2, y, x, z, Mh, phperp, phiH, phiR, theta
+     Event#, e_p, pi+_p, pi-_p, Q2, W, MX, xF1, xF2, y, x, z, Mh, phperp, phiH, phiR, theta
 
